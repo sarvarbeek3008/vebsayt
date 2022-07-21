@@ -1,0 +1,129 @@
+.sarvarbek{ 
+    margin-top: 50px;
+    text-align: center;
+}
+    body, html {
+        height: 100%;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .bg-image {
+        /* The image used */
+        background-image: url("portfolioimage.jpg");
+      
+        /* Add the blur effect */
+        filter: blur(4px);
+        -webkit-filter: blur(4px);
+      
+        /* Full height */
+        height: 100%;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      /* Position text in the middle of the page/image */
+      .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+      }
+.tugma1 {
+    border: 10px aqua;
+    border-radius: 100px;
+    width: 250px;
+    color: black;
+    background-color: rgb(145, 115, 75);
+    
+}
+.tugma1:hover {
+    background-color: rgb(202, 70, 23);
+    /* margin-top: -1px; */
+    transform: scale(1.1);
+    transition: all 1s ease;
+    shape-image-threshold: rgb(235, 237, 242);
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em transparent;
+}
+.telegram {
+    width: 5%;
+}
+.instagram {
+    width: 5%;
+}
+.github {
+    width: 5%;
+}
+.facebok {
+    width: 5%;
+}
+ .ikonka {
+     margin-top:  5%;
+ }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top:100px;
+}
+
+.card{
+    width: 500px;
+    box-shadow: 10px 10px 8px 10px #888888;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 500px;
+    padding: 30px;
+}
+
+.card h1, p{
+    text-align: center;
+    font-style: italic;
+}
+
+.card i{
+    font-size: 400px;
+    color: crimson;
+}
+
+.card input{
+    font-size: 30px;
+    border-top: none;
+    border-right: none;
+    border-radius: 10px;
+    outline: none;
+}
+.card-img-top {
+    border-radius: 50px;
+}
+.services {
+    text-align: center;
+
+}
+.studying {
+    text-align:center;
+    justify-content: center;
+}
+.navbar {
+    margin-top: -140px;
+    width: 100%;
+    height: 100%;
+}
